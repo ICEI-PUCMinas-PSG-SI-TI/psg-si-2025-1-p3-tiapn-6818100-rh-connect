@@ -1,4 +1,4 @@
-# TÍTULO DO PROJETO
+# RH Connect
 
 `CURSO`
 
@@ -6,18 +6,19 @@
 
 `SEMESTRE`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Projeto com intuito de criar um sistema de agendamento de reuniões de funcionarios do RH com colaboradores de firmas com o intuito de ajudar e auxiliar possiveis insatisfações que estão presentes no dia a dia.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Samuel Garcia Porto Vieira
+* Caio Grossi Pereira Marçal
+* Gabriel Falk Prado Bonifácio de Menezes Soares Dias
+* Matheus Alexandre Pereira Braga
+* Matheus Filipe de Deus Silva
 
 ## Orientador
 
-* Nome completo do professor 1
+* Cleia Marcia Gomes Amaral
 
 ## Instruções de utilização
 

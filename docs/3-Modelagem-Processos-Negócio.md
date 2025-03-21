@@ -15,7 +15,7 @@ Entrada: Dados de chamados abertos pelos colaboradores (problemas emocionais, de
 
 Saída: Atendimento ao colaborador, relatórios sobre padrões de saúde mental.
 
-Onde acontece:  RHCONNECT .
+Onde acontece:  RH CONNECT .
 
 Participantes: Psicólogo de RH (Lucas Mendes), colaboradores (como Carlos Silva).
 

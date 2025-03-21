@@ -27,7 +27,7 @@ Entrada: Relatórios sobre saúde emocional, feedbacks dos colaboradores.
 
 Saída: Programas de treinamento, palestras, e workshops sobre bem-estar.
 
-Onde acontece: Espaços físicos da empresa ou plataformas RHCONNECT.
+Onde acontece: Espaços físicos da empresa ou plataformas RH CONNECT.
 
 Participantes: Psicólogo de RH, equipes de treinamento.
 

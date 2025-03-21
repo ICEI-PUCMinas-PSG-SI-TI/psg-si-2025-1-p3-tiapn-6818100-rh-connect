@@ -1,46 +1,43 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+A crescente adoção do trabalho remoto trouxe diversos desafios para os profissionais, especialmente na conciliação entre vida profissional e pessoal. Muitos colaboradores enfrentam dificuldades para gerenciar seu tempo, lidar com a sobrecarga mental e encontrar apoio adequado dentro das empresas.
+
+Este projeto visa desenvolver uma plataforma que conecte colaboradores e profissionais de RH de maneira mais eficiente, permitindo um suporte mais acessível e humanizado para questões relacionadas ao bem-estar no ambiente corporativo.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+Atualmente, os sistemas de suporte de Recursos Humanos das empresas são, em sua maioria, burocráticos e pouco eficazes na resolução de problemas enfrentados pelos funcionários. O processo tradicional se resume ao preenchimento de formulários de reclamação, sem oferecer um canal direto para que os colaboradores expressem suas preocupações e recebam um atendimento mais personalizado.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Essa lacuna se torna ainda mais evidente no contexto do trabalho remoto, onde a comunicação entre colaboradores e RH pode ser fragmentada e impessoal, dificultando a identificação e resolução de problemas como sobrecarga de trabalho, dificuldades de adaptação e questões de saúde mental.
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+###Objetivo Geral
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Desenvolver uma plataforma de suporte organizacional que permita aos colaboradores agendar atendimentos com profissionais de RH, promovendo um canal mais acessível e eficaz para a resolução de problemas no ambiente de trabalho remoto.
 
+###Objetivos Específicos
+
+Criar um sistema de agendamento que permita aos funcionários marcar horários para conversar com o RH.
+
+Implementar um dashboard para que os profissionais de RH acompanhem indicadores de bem-estar dos colaboradores.
+
+Fornecer um espaço para feedback contínuo e sugestões, melhorando o ambiente de trabalho.
+
+Integrar a plataforma com ferramentas de comunicação já utilizadas pelas empresas.
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+O trabalho remoto trouxe benefícios, mas também desafios significativos, especialmente na manutenção da saúde mental dos colaboradores. Empresas que não oferecem suporte adequado podem sofrer com a queda de produtividade e aumento da rotatividade de funcionários.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Ao criar uma plataforma que facilita a comunicação entre colaboradores e profissionais de RH, buscamos proporcionar um ambiente mais saudável e equilibrado, onde os funcionários se sintam ouvidos e tenham acesso a um suporte adequado. Estudos apontam que o bem-estar organizacional impacta diretamente na satisfação e eficiência dos colaboradores, tornando esse projeto uma solução relevante para empresas que desejam melhorar suas políticas de gestão de pessoas.
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+Nosso público-alvo inclui:
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+Trabalhadores que enfrentam dificuldades no ambiente remoto: Profissionais que lidam com sobrecarga de trabalho, problemas de gestão de tempo e dificuldades de comunicação.
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Profissionais de RH e Psicólogos Organizacionais: Responsáveis por oferecer suporte e garantir um ambiente de trabalho saudável, auxiliando os colaboradores na resolução de problemas emocionais e organizacionais.
+
+Empresas que desejam melhorar sua política de bem-estar organizacional: Organizações que buscam reduzir problemas como burnout e aumentar a produtividade de seus colaboradores.
+
+Com essa abordagem, garantimos que a plataforma atenda de forma eficiente as necessidades dos usuários, promovendo um ambiente corporativo mais equilibrado e produtivo.

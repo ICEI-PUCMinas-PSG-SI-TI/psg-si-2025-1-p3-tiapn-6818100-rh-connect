@@ -75,8 +75,6 @@ No fim do dia, Carlos quer mais do que apenas um salário: ele busca um trabalho
 |Psicólogo de RH  | Descobrir problemas dos colaboradores         | Melhorar o bem estar coorporativo          |
 |Operador de Produção  | Falar/abrir chamados sobre o ambiente coorporativo  | Manter o bem estar coorporativo |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
 
 ## Requisitos
 

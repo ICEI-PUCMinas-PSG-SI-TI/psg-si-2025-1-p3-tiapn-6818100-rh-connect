@@ -87,7 +87,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-001| Permitir que o usuário abra chamado | ALTA | 
 |RF-002| Encaminhar a demanda ao setor responsavel  | ALTA |
 |RF-003| Sistema tem que ser usual  | ALTA |
-|RF-003| Permitir que o usuário abra chamado de forma anonima  | Média |
+|RF-004| Permitir que o usuário abra chamado de forma anonima  | Média |
 
 ### Requisitos não Funcionais
 

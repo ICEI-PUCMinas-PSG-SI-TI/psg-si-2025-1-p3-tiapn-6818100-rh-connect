@@ -11,11 +11,11 @@ Essa lacuna se torna ainda mais evidente no contexto do trabalho remoto, onde a 
 
 ## Objetivos
 
-###Objetivo Geral
+### Objetivo Geral
 
 Desenvolver uma plataforma de suporte organizacional que permita aos colaboradores agendar atendimentos com profissionais de RH, promovendo um canal mais acessível e eficaz para a resolução de problemas no ambiente de trabalho remoto.
 
-###Objetivos Específicos
+### Objetivos Específicos
 
 Criar um sistema de agendamento que permita aos funcionários marcar horários para conversar com o RH.
 

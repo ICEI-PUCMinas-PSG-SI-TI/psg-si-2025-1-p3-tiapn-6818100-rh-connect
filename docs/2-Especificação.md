@@ -54,14 +54,14 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-História da Persona 1: Lucas Mendes
+História da Persona 1: 
 Lucas Mendes é um psicólogo organizacional de 35 anos que sempre sonhou em fazer a diferença na vida das pessoas por meio do trabalho. Com uma década de experiência no setor de RH e uma especialização em Gestão de Pessoas, ele acredita que o ambiente corporativo pode ser um local saudável e acolhedor. Sua paixão é desenvolver iniciativas que promovam o bem-estar dos colaboradores, reduzindo índices de absenteísmo e rotatividade.
 
 Apesar de sua dedicação, Lucas enfrenta desafios. Ele percebe a necessidade urgente de ferramentas práticas e seguras para acessar informações sobre o estado emocional dos colaboradores sem comprometer a confidencialidade. Ele se preocupa em manter a confiança dos funcionários no processo e frequentemente busca novas soluções para superar essas dificuldades. Além disso, sente o peso de atender às expectativas da liderança enquanto mantém o equilíbrio entre métricas e o cuidado humano.
 
 Em seu dia a dia, Lucas organiza palestras, workshops e programas voltados à saúde mental e bem-estar. Ele sonha em ser reconhecido como um líder transformador e em mostrar, por meio de relatórios detalhados, que suas ações realmente fazem diferença. No fundo, seu maior objetivo é criar um ambiente corporativo onde todos se sintam apoiados emocionalmente e engajados.
 
-História da Persona 2: Carlos Silva
+História da Persona 2:
 Carlos Silva tem 28 anos e trabalha como operador de produção em uma indústria de alimentos. Ele é conhecido entre seus colegas por ser dedicado e esforçado, sempre buscando manter um bom desempenho e garantir a estabilidade no emprego. Com seis anos de experiência na empresa, Carlos valoriza a oportunidade de ter crescido no setor, mas sente que a rotina é cada vez mais estressante.
 
 Carlos enfrenta desafios diários. Em um ambiente de alta pressão, ele percebe a dificuldade em relatar problemas emocionais ao RH sem medo de represálias. Muitas vezes, ele prefere desabafar com colegas de confiança, mas sente falta de um canal seguro e anônimo onde possa expor suas dificuldades de maneira prática.

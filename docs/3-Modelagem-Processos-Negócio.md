@@ -7,18 +7,17 @@
 
 ### 3.1. Modelagem da situação atual (Modelagem AS IS)
 
-_Apresente uma descrição textual de como os sistemas atuais resolvem o problema que se propõe a resolver.  Caso sua proposta seja inovadora e não existam processos claramente definidos, **apresente como as tarefas que o seu sistema pretende implementar são executadas atualmente**, mesmo que não se utilize tecnologia computacional._
+Na contextualidade, sistemas de reclamação de RH possuem sistemas ineficientes e simplorios para a resolução de situações que afligem diretamente funcionarios de firmas, apenas realizando o envio de um formulario de reclamação, na esperança de uma melhoria posterior, mas nunca escutando a realidade do proximo, nosso sistema uma transformação na situação atual, disponibilizando o colaborador maneiras de contato mais efetivas e detalhadas para a resolução de problemas em seu dia a dia.
 
-Com o tema do projeto definido, escolham alguns processos neste contexto de negócios. Para ilustrar potenciais ganhos com a automatização, imaginem processos manuais, ineficientes e/ou com muitas idas e vindas, gerando, assim, retrabalho.
-Colem aqui os modelos dos processos atuais (modelo AS-IS), elaborados com o apoio da ferramenta baseada em BPMN utilizada na disciplina.
+- Segue exemplo do processo utilizado na atualidade.
+![image](https://github.com/user-attachments/assets/571d5a46-930e-4309-80d4-38eec54809a6)
 
 ### 3.2. Descrição geral da proposta (Modelagem TO BE)
 
-Tendo identificado os gargalos dos modelos AS IS, apresentem uma descrição da proposta de solução, buscando maior eficiência com a introdução da tecnologia. Abordem também os limites dessa solução e o seu alinhamento com as estratégias e objetivos do contexto de negócio escolhido. 
-Colem aqui os modelos da solução proposta (modelo TO BE) elaborados com o apoio da ferramenta baseada em BPMN utilizada na disciplina.
-Cada processo identificado deve ter seu modelo TO-BE específico. Descrevam as oportunidades de melhoria de cada processo da solução proposta.
+O processo será entorno de uma ferramente de agendamento, inicialmente a firma será cadastrada na ferramente e vai informar quais são os colaboradores que são do setor de RH, após isso, os funcionarios do setor vão marcar horários de seu dia para disponibilizar seções para colaboradores que estão passam do algum tipo de situação, os interessados entraram na aplicação e poderão selecionar o melhor horario para conseguir comunicar-se com o time do RH.
 
-_Apresente aqui uma descrição da sua proposta abordando seus limites e suas ligações com as estratégias e objetivos do negócio. Apresente aqui as oportunidades de melhorias._
+- Segue exemplo da primeira proposta de resolução.
+![image](https://github.com/user-attachments/assets/0cea4a50-77dd-4efd-9653-ba1b5400903b)
 
 ### 3.3. Modelagem dos processos
 

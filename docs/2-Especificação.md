@@ -96,7 +96,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | BAIXA | 
-|RNF-002| O sistema
+|RNF-002| O sistema deve ser interativo  | BAIXA | 
 
 
 ## Restrições

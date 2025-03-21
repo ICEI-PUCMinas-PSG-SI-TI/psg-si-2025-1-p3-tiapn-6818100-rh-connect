@@ -9,7 +9,7 @@
 
 Na contextualidade, sistemas de reclamação de RH possuem sistemas ineficientes e simplorios para a resolução de situações que afligem diretamente funcionarios de firmas, apenas realizando o envio de um formulario de reclamação, na esperança de uma melhoria posterior, mas nunca escutando a realidade do proximo, nosso sistema uma transformação na situação atual, disponibilizando o colaborador maneiras de contato mais efetivas e detalhadas para a resolução de problemas em seu dia a dia.
 
-Gestão de Chamados de Saúde Mental
+*Gestão de Chamados de Saúde Mental*
 
 Entrada: Dados de chamados abertos pelos colaboradores (problemas emocionais, denúncias).
 
@@ -21,7 +21,7 @@ Participantes: Psicólogo de RH (Lucas Mendes), colaboradores (como Carlos Silva
 
 Produto de Informação: Histórico de chamados, feedbacks sobre ações implementadas, análise de padrões emocionais.
 
-Desenvolvimento de Programas de Bem-Estar
+*Desenvolvimento de Programas de Bem-Estar*
 
 Entrada: Relatórios sobre saúde emocional, feedbacks dos colaboradores.
 
@@ -33,7 +33,7 @@ Participantes: Psicólogo de RH, equipes de treinamento.
 
 Processos de Suporte/Apoio
 
-Suporte Tecnológico ao Sistema de Chamados
+*Suporte Tecnológico ao Sistema de Chamados*
 
 Entrada: Demandas dos usuários (erros técnicos, sugestões de melhorias).
 
@@ -45,9 +45,9 @@ Participantes: Equipe de TI, colaboradores usuários do sistema.
 
 Produto de Informação: Logs de erros, relatórios de desempenho do sistema.
 
-Processos Gerenciais
+*Processos Gerenciais*
 
-Monitoramento de Indicadores de Bem-Estar
+*Monitoramento de Indicadores de Bem-Estar*
 
 Entrada: Relatórios de saúde emocional e bem-estar, métricas de absenteísmo e rotatividade.
 
@@ -71,7 +71,7 @@ Participantes: Psicólogo de RH, alta liderança.
 
 Produto de Informação: Plano estratégico, cronogramas e ações.
 
-Usuários do Sistema
+*Usuários do Sistema*
 Psicólogo de RH (Lucas Mendes): Responsável por acessar e monitorar chamados, elaborar estratégias e intervenções.
 
 Colaboradores (como Carlos Silva): Usuários do sistema para abertura de chamados e recebimento de suporte.

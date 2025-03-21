@@ -7,39 +7,75 @@ Definição do problema e ideia de solução a partir da perspectiva do usuário
 Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
 
 ## Personas
+ Persona 1: Psicólogo de RH - Lucas Mendes 
+- *Idade:* 35 anos  
+- *Profissão:* Psicólogo Organizacional  
+- *Formação:* Psicologia com especialização em Gestão de Pessoas  
+- *Tempo de Experiência:* 10 anos atuando no setor de RH  
+- *Motivações:*  
+  - Promover um ambiente de trabalho saudável e acolhedor.  
+  - Identificar e tratar problemas de saúde mental dos colaboradores de maneira ágil e eficiente.  
+  - Desenvolver programas de bem-estar e reduzir índices de absenteísmo e rotatividade.  
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+- *Desafios:*  
+  - Dificuldade em obter informações precisas e detalhadas sobre o estado emocional dos colaboradores.  
+  - Falta de ferramentas práticas e seguras para o recebimento de chamados de saúde mental.  
+  - Manter a confidencialidade e a confiança dos funcionários no processo de abertura de chamados.  
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+- *Necessidades:*  
+  - Sistema seguro e intuitivo para receber chamados e denúncias.  
+  - Relatórios gerenciais para identificar padrões e criar estratégias de intervenção.  
+  - Canal de comunicação direta com colaboradores, mantendo a confidencialidade.  
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+-----
+
+*Persona 2: Operador de Produção - Carlos Silva*  
+- *Idade:* 28 anos  
+- *Profissão:* Operador de Produção em uma indústria de alimentos  
+- *Formação:* Ensino Médio completo  
+- *Tempo de Experiência:* 6 anos na empresa atual  
+- *Motivações:*  
+  - Manter um bom desempenho e garantir estabilidade no emprego.  
+  - Sentir-se valorizado e acolhido pela empresa, especialmente em momentos de estresse e pressão.  
+  - Ter um canal seguro para relatar dificuldades emocionais e problemas no ambiente de trabalho.  
+
+- *Desafios:*  
+  - Sentir-se confortável para relatar problemas sem medo de represálias.  
+  - Encontrar suporte emocional para lidar com estresse e sobrecarga de trabalho.  
+  - Comunicar problemas ao RH de maneira prática e segura.  
+
+- *Necessidades:*  
+  - Garantia de anonimato ao relatar dificuldades.  
+  - Facilidade de acesso ao sistema para abertura de chamados.  
+  - Acompanhamento da resolução de problemas com retorno claro e objetivo.  
+
 
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
+História da Persona 1: Lucas Mendes
+Lucas Mendes é um psicólogo organizacional de 35 anos que sempre sonhou em fazer a diferença na vida das pessoas por meio do trabalho. Com uma década de experiência no setor de RH e uma especialização em Gestão de Pessoas, ele acredita que o ambiente corporativo pode ser um local saudável e acolhedor. Sua paixão é desenvolver iniciativas que promovam o bem-estar dos colaboradores, reduzindo índices de absenteísmo e rotatividade.
+
+Apesar de sua dedicação, Lucas enfrenta desafios. Ele percebe a necessidade urgente de ferramentas práticas e seguras para acessar informações sobre o estado emocional dos colaboradores sem comprometer a confidencialidade. Ele se preocupa em manter a confiança dos funcionários no processo e frequentemente busca novas soluções para superar essas dificuldades. Além disso, sente o peso de atender às expectativas da liderança enquanto mantém o equilíbrio entre métricas e o cuidado humano.
+
+Em seu dia a dia, Lucas organiza palestras, workshops e programas voltados à saúde mental e bem-estar. Ele sonha em ser reconhecido como um líder transformador e em mostrar, por meio de relatórios detalhados, que suas ações realmente fazem diferença. No fundo, seu maior objetivo é criar um ambiente corporativo onde todos se sintam apoiados emocionalmente e engajados.
+
+História da Persona 2: Carlos Silva
+Carlos Silva tem 28 anos e trabalha como operador de produção em uma indústria de alimentos. Ele é conhecido entre seus colegas por ser dedicado e esforçado, sempre buscando manter um bom desempenho e garantir a estabilidade no emprego. Com seis anos de experiência na empresa, Carlos valoriza a oportunidade de ter crescido no setor, mas sente que a rotina é cada vez mais estressante.
+
+Carlos enfrenta desafios diários. Em um ambiente de alta pressão, ele percebe a dificuldade em relatar problemas emocionais ao RH sem medo de represálias. Muitas vezes, ele prefere desabafar com colegas de confiança, mas sente falta de um canal seguro e anônimo onde possa expor suas dificuldades de maneira prática.
+
+Além de lidar com o estresse no trabalho, Carlos também busca por reconhecimento e apoio por parte da empresa. Ele acredita que, com suporte adequado, sua produtividade e bem-estar poderiam ser ainda melhores. Seu sonho é trabalhar em um ambiente onde as demandas sejam equilibradas e ele se sinta acolhido e valorizado.
+
+No fim do dia, Carlos quer mais do que apenas um salário: ele busca um trabalho que não comprometa sua saúde mental e emocional, enquanto constrói uma relação de confiança e respeito com seus empregadores.
+
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Psicólogo de RH  | Descobrir problemas dos colaboradores         | Melhorar o bem estar coorporativo          |
+|Operador de Produção  | Falar/abrir chamados sobre o ambiente coorporativo  | Mantém o bem estar coorporativo |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
-
 
 
 ## Requisitos
@@ -50,30 +86,18 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| Permitir que o usuário abra chamado | ALTA | 
+|RF-002| Encaminhar a demanda ao setor responsavel  | ALTA |
+|RF-003| Sistema tem que ser usual  | ALTA |
+|RF-003| Permitir que o usuário abra chamado de forma anonima  | Média |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | BAIXA | 
+|RNF-002| O sistema
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 

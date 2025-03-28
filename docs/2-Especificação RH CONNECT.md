@@ -87,14 +87,15 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-001| Permitir que o usuário abra chamado | ALTA | 
 |RF-002| Encaminhar a demanda ao setor responsavel  | ALTA |
 |RF-003| Sistema tem que ser usual  | ALTA |
-|RF-004| Permitir que o usuário abra chamado de forma anonima  | Média |
+|RF-004| Permitir que a ferramenta ofereça sigilo total, em ambos os lados  | Média |
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
+|ID     | Descrição do Requisito  | Prioridade |
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | BAIXA | 
 |RNF-002| O sistema deve ser interativo  | BAIXA | 
+|RNF-003| O trabalho deve seguir as normas LGPD  | BAIXA | 
 
 
 ## Restrições
@@ -105,6 +106,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
+
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 

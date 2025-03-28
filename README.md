@@ -1,10 +1,10 @@
 # RH Connect
 
-`CURSO`
+`Sistemas de Informação`
 
-`DISCIPLINA`
+`Trabalho Interdisciplinar: Aplicações para Processos de Negócios`
 
-`SEMESTRE`
+`Primeiro Semestre`
 
 Projeto com intuito de criar um sistema de agendamento de reuniões de funcionarios do RH com colaboradores de firmas com o intuito de ajudar e auxiliar possiveis insatisfações que estão presentes no dia a dia.
 

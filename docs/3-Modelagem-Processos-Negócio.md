@@ -16,7 +16,7 @@ Na contextualidade, sistemas de reclamação de RH possuem sistemas ineficientes
 
 O processo será entorno de uma ferramente de agendamento, inicialmente a firma será cadastrada na ferramente e vai informar quais são os colaboradores que são do setor de RH, após isso, os funcionarios do setor vão marcar horários de seu dia para disponibilizar seções para colaboradores que estão passam do algum tipo de situação, os interessados entraram na aplicação e poderão selecionar o melhor horario para conseguir comunicar-se com o time do RH.
 
-### *Cadastro de Firmas na Plataforma**
+### *Cadastro de Firmas na Plataforma*
 
 Entrada: Preenchimento dos dados dos colaboradores e RH.
 
@@ -28,7 +28,7 @@ Participantes: Setor Administrativo, TI.
 
 Produto de Informação: Disponibilização completa do sistema, desde a criação dos chamados, até o formulário de situação do colaborador.
 
-### *Gestão de Chamados de Saúde Mental*
+### *Processamento de Chamados*
 
 Entrada: Disponibilização de horário do RH para colaborador aderir e posteriormente criar o chamado.
 
@@ -51,6 +51,16 @@ Onde acontece: Reuniões de comitê gestor.
 Participantes: Psicólogo de RH, alta liderança.
 
 Produto de Informação: Plano estratégico, cronogramas e ações.
+
+### *Gestão de Dados dos Chamados*
+
+Entrada: Finalização do chamado
+
+Saída: Historico de chamados e formulários
+
+Onde acontece: RH Connect.
+
+Processo Automatico, sem participantes.
 
 ### *Usuários do Sistema*
 Psicólogo de RH (Lucas Mendes): Responsável por acessar e monitorar chamados, elaborar estratégias e intervenções.

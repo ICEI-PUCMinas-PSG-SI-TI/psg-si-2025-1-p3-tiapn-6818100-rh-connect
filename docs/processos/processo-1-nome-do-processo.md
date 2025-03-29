@@ -1,6 +1,6 @@
-### 3.3.1 Processo 1 – NOME DO PROCESSO
+### 3.3.1 Processo 1 – Cadastro de chamado e Processamento.
 
-_Apresente aqui o nome e as oportunidades de melhoria para o processo 1. 
+_Processo responsável por criar o agendamento, disponibilizar e efetuar. 
 Em seguida, apresente o modelo do processo 1, descrito no padrão BPMN._
 
 ![image](https://github.com/user-attachments/assets/04667182-c97a-41b7-99be-0b6f6eaeb65e)

@@ -92,3 +92,7 @@ Relatórios: Indicadores e análises de padrões.
 [PROCESSO 1 - Nome do Processo](./processos/processo-1-nome-do-processo.md "Detalhamento do Processo 1.")
 
 [PROCESSO 2 - Nome do Processo](./processos/processo-2-nome-do-processo.md "Detalhamento do Processo 2.")
+
+[PROCESSO 1 - Nome do Processo](./processos/processo-3-nome-do-processo.md "Detalhamento do Processo 3.")
+
+[PROCESSO 2 - Nome do Processo](./processos/processo-4-nome-do-processo.md "Detalhamento do Processo 4.")

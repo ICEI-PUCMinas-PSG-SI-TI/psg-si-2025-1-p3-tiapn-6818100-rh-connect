@@ -1,4 +1,4 @@
-### 3.3.1 Processo 3 – CPlanejamento Estratégico de Saúde Mental.
+### 3.3.3 Processo 3 – Planejamento Estratégico de Saúde Mental.
  
 _Processo responsável por analisar os dados coletados e definir ações futuras voltadas ao bem-estar dos colaboradores. Em seguida, apresente o modelo do processo 3, descrito no padrão BPMN._
 

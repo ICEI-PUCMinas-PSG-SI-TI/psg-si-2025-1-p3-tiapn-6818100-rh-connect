@@ -1,7 +1,6 @@
 ### 3.3.1 Processo 3 – CPlanejamento Estratégico de Saúde Mental.
-
-_Processo responsável por criar o agendamento, disponibilizar e efetuar._ 
-Processo responsável por analisar os dados coletados e definir ações futuras voltadas ao bem-estar dos colaboradores. Em seguida, apresente o modelo do processo 3, descrito no padrão BPMN.
+ 
+_Processo responsável por analisar os dados coletados e definir ações futuras voltadas ao bem-estar dos colaboradores. Em seguida, apresente o modelo do processo 3, descrito no padrão BPMN._
 
 ![diagram_1](https://github.com/user-attachments/assets/92234669-d939-48ee-8237-1511f22caa46)
 

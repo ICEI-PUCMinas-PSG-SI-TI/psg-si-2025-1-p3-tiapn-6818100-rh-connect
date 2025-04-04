@@ -1,67 +1,40 @@
-### 3.3.1 Processo 1 – Cadastro de chamado e Processamento.
+3.3.1 – Processo 1: Cadastro de chamado e Processamento
+Descrição do Processo:
+Este processo é responsável por permitir que o colaborador realize o cadastro de um chamado por meio da plataforma RH Connect. A partir disso, o sistema processa o agendamento com o setor de RH, disponibiliza os horários e confirma o atendimento.
 
-_Processo responsável por criar o agendamento, disponibilizar e efetuar. 
-Em seguida, apresente o modelo do processo 1, descrito no padrão BPMN._
-
-![image](https://github.com/user-attachments/assets/04667182-c97a-41b7-99be-0b6f6eaeb65e)
-
-#### Detalhamento das atividades
-
-_Descreva aqui cada uma das propriedades das atividades do processo 1. 
-Devem estar relacionadas com o modelo de processo apresentado anteriormente._
-
-_Os tipos de dados a serem utilizados são:_
-
-_* **Área de texto** - campo texto de múltiplas linhas_
-
-_* **Caixa de texto** - campo texto de uma linha_
-
-_* **Número** - campo numérico_
-
-_* **Data** - campo do tipo data (dd-mm-aaaa)_
-
-_* **Hora** - campo do tipo hora (hh:mm:ss)_
-
-_* **Data e Hora** - campo do tipo data e hora (dd-mm-aaaa, hh:mm:ss)_
-
-_* **Imagem** - campo contendo uma imagem_
-
-_* **Seleção única** - campo com várias opções de valores que são mutuamente exclusivas (tradicional radio button ou combobox)_
-
-_* **Seleção múltipla** - campo com várias opções que podem ser selecionadas mutuamente (tradicional checkbox ou listbox)_
-
-_* **Arquivo** - campo de upload de documento_
-
-_* **Link** - campo que armazena uma URL_
-
-_* **Tabela** - campo formado por uma matriz de valores_
+Modelo BPMN:
 
 
-**Nome da atividade 1**
+Detalhamento das Atividades:
+✅ Nome da Atividade 1: Preencher Formulário de Chamado
+Campo	Tipo de Dados	Restrições	Valor Default
+nome	Caixa de Texto	obrigatório	
+email	Caixa de Texto	formato de e-mail	
+descrição do problema	Área de Texto	mínimo de 30 caracteres	
+tipo de situação	Seleção Única	opções: Assédio, Carga Excessiva, Ambiente Tóxico, Outro	
+documento anexo	Arquivo	opcional	
+Comandos
 
-| **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
-| ---             | ---              | ---            | ---               |
-| [Nome do campo] | [tipo de dados]  |                |                   |
-| ***Exemplo:***  |                  |                |                   |
-| login           | Caixa de Texto   | formato de e-mail |                |
-| senha           | Caixa de Texto   | mínimo de 8 caracteres |           |
+Nome do Botão	Destino	Tipo
+cadastrar chamado	Atividade 2 (Escolher horário)	default
+cancelar	Fim do processo	cancel
+✅ Nome da Atividade 2: Escolher Horário com RH
+Campo	Tipo de Dados	Restrições	Valor Default
+data preferida	Data	não pode ser anterior à data atual	
+horário preferido	Hora	dentro do horário comercial (08h–18h)	
+modo de atendimento	Seleção Única	opções: Presencial, Online	
+Comandos
 
-| **Comandos**         |  **Destino**                   | **Tipo** |
-| ---                  | ---                            | ---               |
-| [Nome do botão/link] | Atividade/processo de destino  | (default/cancel/  ) |
-| ***Exemplo:***       |                                |                   |
-| entrar               | Fim do Processo 1              | default           |
-| cadastrar            | Início do proceso de cadastro  |                   |
+Nome do Botão	Destino	Tipo
+confirmar horário	Atividade 3 (Confirmação do chamado)	default
+voltar	Atividade 1 (Formulário)	cancel
+✅ Nome da Atividade 3: Confirmação do Chamado
+Campo	Tipo de Dados	Restrições	Valor Default
+status do chamado	Caixa de Texto	somente leitura	Aguardando atendimento
+resumo do agendamento	Área de Texto	somente leitura	
+link da reunião	Link	somente se for online	
+Comandos
 
-
-**Nome da atividade 2**
-
-| **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
-| ---             | ---              | ---            | ---               |
-| [Nome do campo] | [tipo de dados]  |                |                   |
-|                 |                  |                |                   |
-
-| **Comandos**         |  **Destino**                   | **Tipo**          |
-| ---                  | ---                            | ---               |
-| [Nome do botão/link] | Atividade/processo de destino  | (default/cancel/  ) |
-|                      |                                |                   |
+Nome do Botão	Destino	Tipo
+finalizar cadastro	Fim do processo	default
+editar informações	Atividade 1	cancel

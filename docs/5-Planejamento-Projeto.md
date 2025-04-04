@@ -1,55 +1,57 @@
 # 5. Planejamento do Projeto
 
-> Aqui será feito o gerenciamento das tarefas de implementação do projeto.
-
 ## 5.1. Divisão de Papéis
 
-> Apresente a divisão de papéis entre os membros do grupo em cada sprint. O desejável é que, em cada sprint, o aluno assuma papéis diferentes na disciplina. Siga o modelo do exemplo abaixo:
+### Sprint 1  
+- **Scrum master:** Samuel Garcia Porto Vieira   
+- **Protótipos (Wireframes e UI):** Matheus Filipe de Deus Silva  
+- **Testes (Testes de usabilidade e verificação do fluxo):** Caio Grossi Pereira Marçal  
+- **Documentação (Requisitos, Personas, Modelagem AS IS e TO BE):** Gabriel Falk Prado Bonifácio de Menezes Soares Dias
+- **Auxiliar de pesquisa e revisão:** Matheus Alexandre Pereira Braga  
 
-### Sprint 1
-- _Scrum master_: AlunaX
-- Protótipos: AlunoY
-- Testes: AlunoK
-- Documentação: AlunaZ
+### Sprint 2  
+- **Scrum master:** Matheus Alexandre Pereira Braga  
+- **Desenvolvedor front-end (telas e interações):** Samuel Garcia Porto Vieira  
+- **Desenvolvedor back-end (simulação de lógica sem backend real):** Caio Grossi Pereira Marçal  
+- **Testes (Funcionalidades do protótipo navegável):** Matheus Filipe de Deus Silva  
+- **Documentação final e ajustes técnicos:** Gabriel Falk Prado Bonifácio de Menezes Soares Dias  
 
-### Sprint 2
-- _Scrum master_: AlunaY
-- Desenvolvedor _front-end_: AlunoX
-- Desenvolvedor _back-end_: AlunoK
-- Testes: AlunaZ
+---
 
-## 5.1. Quadro de tarefas
+## 5.2. Quadro de Tarefas
 
-> Apresente a divisão de tarefas entre os membros do grupo e o acompanhamento da execução, conforme exemplo abaixo.
+### Sprint 1  
+*Atualizado em: 04/04/2025*
 
-## Sprint 1
+| Responsável                          | Tarefa/Requisito                          | Iniciado em | Prazo      | Status | Terminado em  |
+|--------------------------------------|------------------------------------------|-------------|------------|--------|----------------|
+| Samuel Garcia Porto Vieira           | Modelagem AS IS e TO BE                  | 01/03/2025  | 10/03/2025 | ✔️     | 08/03/2025     |
+| Matheus Filipe de Deus Silva         | Criação dos protótipos iniciais          | 02/03/2025  | 12/03/2025 | 📝     |                |
+| Caio Grossi Pereira Marçal           | Redação de histórias de usuário          | 01/03/2025  | 10/03/2025 | ✔️     | 09/03/2025     |
+| Gabriel Falk P. B. M. Soares Dias    | Personas e requisitos funcionais         | 01/03/2025  | 12/03/2025 | ✔️     | 10/03/2025     |
+| Matheus Alexandre Pereira Braga      | Pesquisa de ferramentas e revisão geral  | 03/03/2025  | 13/03/2025 | 📝     |                |
 
-Atualizado em: 21/04/2024
+---
 
-| Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
-| :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
-| AlunaX        | Introdução | 01/02/2024     | 07/02/2024 | ✔️    | 05/01/2005      |
-| AlunaZ        | Objetivos    | 03/02/2024     | 10/02/2024 | 📝    |                 |
-| AlunoY        | Histórias de usuário  | 01/01/2024     | 07/01/2005 | ⌛     |                 |
-| AlunoK        | Personas 1  |    01/01/2024        | 12/02/2005 | ❌    |       |
+### Sprint 2  
+*Atualizado em: 04/04/2025*
 
-## Sprint 2
+| Responsável                          | Tarefa/Requisito                          | Iniciado em | Prazo      | Status | Terminado em  |
+|--------------------------------------|------------------------------------------|-------------|------------|--------|----------------|
+| Samuel Garcia Porto Vieira           | Página de login e agendamento            | 01/04/2025  | 15/04/2025 | ❌     |                |
+| Caio Grossi Pereira Marçal           | Simulação do processo de abertura de chamado | 01/04/2025  | 17/04/2025 |❌     |                |
+| Matheus Filipe de Deus Silva         | Testes de usabilidade e navegabilidade   | 04/04/2025  | 20/04/2025 | ❌     |                |
+| Gabriel Falk P. B. M. Soares Dias    | Finalização da documentação do sistema   | 02/04/2025  | 18/04/2025 | ❌     |                |
+| Matheus Alexandre Pereira Braga      | Ajustes no fluxo de agendamento e revisão | 03/04/2025  | 16/04/2025 | ❌     |                |
 
-Atualizado em: 21/04/2024
+---
 
-| Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
-| :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
-| AlunaX        | Home-Page        | 01/02/2024     | 07/03/2024 | ✔️    | 05/01/2005      |
-| AlunaZ        | CSS Unificado    | 03/02/2024     | 10/03/2024 | 📝    |                 |
-| AlunoY        | Página de login  | 01/02/2024     | 07/03/2024 | ⌛     |                 |
-| AlunoK        | Script de login  |  01/01/2024    | 12/03/2024 | ❌    |       |
+**Legenda:**
+- ✔️: terminado  
+- 📝: em execução  
+- ⌛: atrasado  
+- ❌: não iniciado  
 
-
-Legenda:
-- ✔️: terminado
-- 📝: em execução
-- ⌛: atrasado
-- ❌: não iniciado
 
 
 

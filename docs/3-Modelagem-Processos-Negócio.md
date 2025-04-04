@@ -89,10 +89,10 @@ Relatórios: Indicadores e análises de padrões.
 
 ### 3.3. Modelagem dos processos
 
-[PROCESSO 1 - Nome do Processo](./processos/processo-1-nome-do-processo.md "Detalhamento do Processo 1.")
+[PROCESSO 1 - Cadastro de Firmas na Plataforma](./processos/processo-1-nome-do-processo.md "Detalhamento do Processo 1.")
 
-[PROCESSO 2 - Nome do Processo](./processos/processo-2-nome-do-processo.md "Detalhamento do Processo 2.")
+[PROCESSO 2 - Processamento de Chamados](./processos/processo-2-nome-do-processo.md "Detalhamento do Processo 2.")
 
-[PROCESSO 1 - Nome do Processo](./processos/processo-3-nome-do-processo.md "Detalhamento do Processo 3.")
+[PROCESSO 3 - Planejamento Estratégico de Saúde Mental](./processos/processo-3-nome-do-processo.md "Detalhamento do Processo 3.")
 
-[PROCESSO 2 - Nome do Processo](./processos/processo-4-nome-do-processo.md "Detalhamento do Processo 4.")
+[PROCESSO 4 - Gestão de Dados dos Chamados](./processos/processo-4-nome-do-processo.md "Detalhamento do Processo 4.")

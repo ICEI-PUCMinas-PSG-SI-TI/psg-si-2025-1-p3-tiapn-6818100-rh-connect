@@ -3,7 +3,7 @@
 _Processo responsável por criar o agendamento, disponibilizar e efetuar. 
 Processo responsável por analisar os dados coletados e definir ações futuras voltadas ao bem-estar dos colaboradores. Em seguida, apresente o modelo do processo 3, descrito no padrão BPMN.
 
-(![diagram_1](https://github.com/user-attachments/assets/92234669-d939-48ee-8237-1511f22caa46)
+![diagram_1](https://github.com/user-attachments/assets/92234669-d939-48ee-8237-1511f22caa46)
 
 #### Detalhamento das atividades
 

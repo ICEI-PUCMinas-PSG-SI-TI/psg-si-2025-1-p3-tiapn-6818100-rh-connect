@@ -25,11 +25,11 @@
 
 | Responsável                          | Tarefa/Requisito                          | Iniciado em | Prazo      | Status | Terminado em  |
 |--------------------------------------|------------------------------------------|-------------|------------|--------|----------------|
-| Samuel Garcia Porto Vieira           | Modelagem AS IS e TO BE                  | 01/03/2025  | 10/03/2025 | ✔️     | 08/03/2025     |
-| Matheus Filipe de Deus Silva         | Criação dos protótipos iniciais          | 02/03/2025  | 12/03/2025 | 📝     |                |
-| Caio Grossi Pereira Marçal           | Redação de histórias de usuário          | 01/03/2025  | 10/03/2025 | ✔️     | 09/03/2025     |
-| Gabriel Falk P. B. M. Soares Dias    | Personas e requisitos funcionais         | 01/03/2025  | 12/03/2025 | ✔️     | 10/03/2025     |
-| Matheus Alexandre Pereira Braga      | Pesquisa de ferramentas e revisão geral  | 03/03/2025  | 13/03/2025 | 📝     |                |
+| Samuel Garcia Porto Vieira           | Objetivos Gerais e especificos           | 01/03/2025  | 10/03/2025 | ✔️     | 08/03/2025     |
+| Matheus Filipe de Deus Silva         | Definição dos participantes do processo  | 02/03/2025  | 12/03/2025 | ✔️     | 07/03/2025     |
+| Caio Grossi Pereira Marçal           | Criação de justificativas e apoio geral  | 01/03/2025  | 10/03/2025 | ✔️     | 09/03/2025     |
+| Gabriel Falk P. B. M. Soares Dias    | Contextualização do processo             | 01/03/2025  | 12/03/2025 | ✔️     | 10/03/2025     |
+| Matheus Alexandre Pereira Braga      | Criação do tema do projeto               | 03/03/2025  | 13/03/2025 | ✔️     | 07/03/2025     |
 
 ---
 
@@ -38,12 +38,11 @@
 
 | Responsável                          | Tarefa/Requisito                          | Iniciado em | Prazo      | Status | Terminado em  |
 |--------------------------------------|------------------------------------------|-------------|------------|--------|----------------|
-| Samuel Garcia Porto Vieira           | Página de login e agendamento            | 01/04/2025  | 15/04/2025 | ❌     |                |
-| Caio Grossi Pereira Marçal           | Simulação do processo de abertura de chamado | 01/04/2025  | 17/04/2025 |❌     |                |
-| Matheus Filipe de Deus Silva         | Testes de usabilidade e navegabilidade   | 04/04/2025  | 20/04/2025 | ❌     |                |
-| Gabriel Falk P. B. M. Soares Dias    | Finalização da documentação do sistema   | 02/04/2025  | 18/04/2025 | ❌     |                |
-| Matheus Alexandre Pereira Braga      | Ajustes no fluxo de agendamento e revisão | 03/04/2025  | 16/04/2025 | ❌     |                |
-
+| Samuel Garcia Porto Vieira           | Modelagem AS IS e TO BE                  | 01/03/2025  | 21/03/2025 | ✔️     | 20/03/2025     |
+| Matheus Filipe de Deus Silva         | Criação dos protótipos iniciais          | 02/03/2025  | 07/03/2025 | ✔️     | 05/03/2025     |
+| Caio Grossi Pereira Marçal           | Redação de histórias de usuário          | 01/03/2025  | 10/03/2025 | ✔️     | 09/03/2025     |
+| Gabriel Falk P. B. M. Soares Dias    | Personas e requisitos funcionais         | 01/03/2025  | 12/03/2025 | ✔️     | 10/03/2025     |
+| Matheus Alexandre Pereira Braga      | Revisão e Criação dos requisitos         | 03/03/2025  | 13/03/2025 | ✔️     | 13/03/2025     |
 ---
 
 **Legenda:**

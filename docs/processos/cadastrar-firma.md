@@ -1,9 +1,9 @@
 ### 3.3.2 Processo 2 – Cadastrar Firma no RH Connect.
 
-_Apresente aqui o nome e as oportunidades de melhoria para o processo 2. 
-Em seguida, apresente o modelo do processo 2, descrito no padrão BPMN._
+O processo se inicia com a aprovação da firma para o cadastro na plataforma, quando o projeto é aprovado, é criado um chamado para a equipe de TI prosseguir com o cadastro.
+Concomitante a isso, a equipe age buscando no banco de dados as informações necessárias de cada colaborador para realizar o cadastro e após isso, fechar o chamado e notificar a equipe Administrativa. 
 
-![image](https://github.com/user-attachments/assets/06aaf2fb-f9e8-402b-87b4-97ec8bb947c5)
+![image](https://github.com/user-attachments/assets/ffd501a7-df5f-4063-bd55-47449ffff979)
 
 
 #### Detalhamento das atividades

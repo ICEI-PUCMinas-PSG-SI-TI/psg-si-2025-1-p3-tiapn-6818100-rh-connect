@@ -95,4 +95,4 @@ Relatórios: Indicadores e análises de padrões.
 
 [PROCESSO 3 - Gestão de Dados dos Chamados](./processos/processo-4-nome-do-processo.md "Detalhamento do Processo 4.")
 
-[PROCESSO 4 - Planejamento Estratégico de Saúde Mental](./processos/planejamento-estrategico "Detalhamento do Processo 3.")
+[PROCESSO 4 - Planejamento Estratégico de Saúde Mental](./processos/planejamento-estrategico.md "Detalhamento do Processo 3.")

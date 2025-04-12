@@ -91,8 +91,8 @@ Relatórios: Indicadores e análises de padrões.
 
 [PROCESSO 1 - Cadastro de Firmas na Plataforma](./processos/cadastrar-firma.md "Detalhamento do Processo 1.")
 
-[PROCESSO 2 - Processamento de Chamados](./processos/processo-2-nome-do-processo.md "Detalhamento do Processo 2.")
+[PROCESSO 2 - Processamento de Chamados](./processos/cadastro-processamento.md "Detalhamento do Processo 2.")
 
-[PROCESSO 3 - Gestão de Dados dos Chamados](./processos/processo-4-nome-do-processo.md "Detalhamento do Processo 4.")
+[PROCESSO 3 - Gestão de Dados dos Chamados](./processos/gestao-dados.md "Detalhamento do Processo 4.")
 
 [PROCESSO 4 - Planejamento Estratégico de Saúde Mental](./processos/planejamento-estrategico.md "Detalhamento do Processo 3.")

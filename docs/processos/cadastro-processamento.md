@@ -1,9 +1,11 @@
-### 3.3.1 Processo 1 – Cadastro de chamado e Processamento.
+### 3.3.1 Processo 2 – Cadastro de chamado e Processamento.
 
-_Processo responsável por criar o agendamento, disponibilizar e efetuar. 
-Em seguida, apresente o modelo do processo 1, descrito no padrão BPMN._
+_O processo se inicia com o colaborador abrindo o chamado para o RH, que irá conferir se o horário será efetivo para a realização do chamado._
+_Caso se o processo for positivo, o funcionário do setor de RH vai aceitar o chamado, fazendo que o sistema dispare uma confirmação para o colaborador._
+_Após o recebimento da confirmação, os colaboradores irão realizar uma reunião em particular, conversando sobre a(s) situação(ões) do requisitadas pelo adjunto._
+_Ao termino da reunião, o chamado será fechado, finalizando o processo._
 
-![image](https://github.com/user-attachments/assets/04667182-c97a-41b7-99be-0b6f6eaeb65e)
+![image](https://github.com/user-attachments/assets/6e3a50e9-4243-4a9d-b132-745ee80da7c5)
 
 #### Detalhamento das atividades
 

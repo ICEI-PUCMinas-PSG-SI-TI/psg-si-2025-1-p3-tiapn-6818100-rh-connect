@@ -3,7 +3,117 @@
 <span style="color:red">Pré-requisitos: <a href="03-Modelagem do Processo de Negocio.md"> Modelagem do Processo de Negocio</a></span>
 
 ## 4.1. Arquitetura da solução
+Este projeto visa desenvolver uma plataforma digital chamada **RH Connect**, focada no apoio ao bem-estar e à saúde mental dos colaboradores de empresas por meio de um canal estruturado, seguro e funcional com o setor de Recursos Humanos. A solução busca modernizar os métodos tradicionais e ineficazes de comunicação entre colaboradores e RH, oferecendo um ambiente interativo, confidencial e baseado em dados para a escuta e o acompanhamento de situações sensíveis no cotidiano corporativo.
 
+A arquitetura do sistema está estruturada em módulos bem definidos, utilizando **Python com Django** como framework base no backend. A comunicação entre as camadas é realizada por meio de APIs RESTful. O frontend poderá ser desenvolvido com **HTML/CSS/JavaScript**), e o banco de dados será gerenciado com **PostgreSQL**.
+
+### 🔧 Tecnologias Utilizadas
+
+| Camada         | Tecnologias                          |
+|----------------|--------------------------------------|
+| Backend        | Python 3.12, Django 5.x               |
+| Frontend       | HTML5, CSS3, JavaScript (Bootstrap)   |
+| Banco de Dados | PostgreSQL                           |
+| Hospedagem     | Heroku ou Railway (fase inicial)     |
+
+---
+
+## 🧩 Módulos da Solução
+
+### 1. Cadastro de Empresa
+- Registro de novas empresas.
+- Associação de usuário master à firma.
+
+### 2. Cadastro de Usuário
+- Registro de novos colaboradores e membros do RH.
+- Associação dos usuários à firma (via e-mail institucional ou matrícula).
+- Controle de perfis: colaborador, RH, gestor.
+
+### 3. Criar Chamado Novo (Abertura)
+- Interface intuitiva para abertura de chamados.
+- Opção de anonimato e sigilo conforme escolha do colaborador.
+- Encaminhamento automático para profissionais de RH.
+
+### 4. Gestão dos Chamados
+- Visualização e gerenciamento de chamados em andamento.
+- Atribuição automática ou manual dos chamados ao RH.
+- Atualização de status (aberto, em atendimento, encerrado).
+
+### 5. Relatórios de Chamados
+- Geração de relatórios por período, status e tipo de chamado.
+- Indicadores de saúde mental e frequência de atendimento.
+- Base para planejamento estratégico da organização.
+
+### 6. Avaliar Chamado
+- Formulário de avaliação pós-atendimento.
+- Feedback anônimo opcional.
+
+A seguir, são apresentados os protótipos desenvolvidos a partir dos processos identificados. Cada tabela representa um processo com os respectivos campos e características da interface.
+
+### Processo 1: Cadastro de Empresa
+
+| Atividade              | Protótipo (Figma/Imagem) | Nome do Campo     | Tipo de Campo | Observações                    |
+|------------------------|--------------------------|-------------------|---------------|--------------------------------|
+| Preencher formulário   | [Protótipo link/imagem]  | Nome da Empresa     | Texto         | Identificação da empresa             |
+|                        |                          | Responsável administrativo     | Texto         | Identificação do responsável pelo RH Connect na empresa (usuário master)              |
+|                        |                          | E-mail            | Texto         | Deve ser um e-mail corporativo.  |
+
+---
+
+### Processo 2: Cadastro de Colaborador
+
+| Atividade              | Protótipo (Figma/Imagem) | Nome do Campo     | Tipo de Campo | Observações                    |
+|------------------------|--------------------------|-------------------|---------------|--------------------------------|
+| Preencher formulário   | [Protótipo link/imagem]  | Nome completo     | Texto         | Identificação              |
+|                        |                          | E-mail            | Texto         | Deve ser um e-mail corporativo.  |
+|                        |                          | Setor/departamento            | Texto         | Repartição na empresa onde o colaborador trabalha |
+|                        |                          | Cargo            | Texto         | Função exercida |
+|                        |                          | Tipo de usuário   | Dropdown      | RH, Colaborador, Gestor        |
+
+---
+
+### Processo 3: Criar Chamado Novo
+
+| Atividade              | Protótipo                | Nome do Campo       | Tipo de Campo | Observações                        |
+|------------------------|--------------------------|---------------------|---------------|------------------------------------|
+| Preencher detalhes     | [Protótipo link/imagem]  | Título do chamado   | Texto         | Breve descrição do problema        |
+|                        |                          | Descrição detalhada | Caixa de texto| Deve conter o relato completo      |
+|                        |                          | Categoria            | Dropdown      | Assédio, Estresse, Outros          |
+|                        |                          | Anexar arquivo       | Upload        | Opcional                           |
+|                        |                          | Horário preferencial | Seletor       | Para facilitar o contato com o RH  |
+
+---
+
+### Processo 4: Gestão dos Chamados
+
+| Atividade                | Protótipo                | Nome do Campo         | Tipo de Campo | Observações                       |
+|--------------------------|--------------------------|------------------------|---------------|-----------------------------------|
+| Visualizar chamados      | [Protótipo link/imagem]  | Lista de chamados      | Lista          | Exibe chamados com filtros        |
+|                          |                          | Filtro por status      | Dropdown       | Em aberto, Em andamento, Finalizado |
+|                          |                          | Filtro por colaborador | Campo texto    | Buscar por nome                   |
+|                          |                          | Ações                  | Botões         | Visualizar / Finalizar / Avaliar  |
+
+---
+
+### Processo 5: Relatórios de Chamados
+
+| Atividade                 | Protótipo                | Nome do Campo     | Tipo de Campo | Observações                        |
+|---------------------------|--------------------------|-------------------|---------------|------------------------------------|
+| Gerar relatório           | [Protótipo link/imagem]  | Período           | Calendário    | Seletor de datas                   |
+|                           |                          | Categoria         | Dropdown      | Filtros por tipo de chamado        |
+|                           |                          | Exportar          | Botão         | Exportar em PDF ou Excel           |
+
+---
+
+### Processo 6: Avaliar Chamado
+
+| Atividade               | Protótipo                | Nome do Campo      | Tipo de Campo | Observações                        |
+|-------------------------|--------------------------|--------------------|---------------|------------------------------------|
+| Avaliar atendimento     | [Protótipo link/imagem]  | Nota               | Estrelas (1-5)| Avaliação do atendimento           |
+|                         |                          | Comentários        | Caixa de texto| Feedback adicional (opcional)      |
+|                         |                          | Enviar avaliação   | Botão         | Finaliza a avaliação               |
+
+---
 
 ......  COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
 

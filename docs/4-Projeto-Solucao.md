@@ -14,11 +14,11 @@ A arquitetura do sistema está estruturada em módulos bem definidos, utilizando
 | Backend        | Python, Django               |
 | Frontend       | HTML5, CSS3, JavaScript (Bootstrap)   |
 | Banco de Dados | PostgreSQL                           |
-| Hospedagem     | Heroku ou Railway (fase inicial)     |
+| Hospedagem     | A definir     |
 
 ---
 
-A seguir, são apresentados os protótipos desenvolvidos a partir dos processos identificados. Cada tabela representa um processo com os respectivos campos e características da interface.
+A seguir, são apresentados os módulos desenvolvidos a partir dos processos identificados. Cada tabela representa um processo com os respectivos campos e características da interface.
 
 ### Processo 1: Cadastro de Empresa
 

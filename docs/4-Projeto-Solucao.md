@@ -85,15 +85,9 @@ A seguir, são apresentados os módulos desenvolvidos a partir dos processos ide
 
 ---
 
-......  COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
+![Blank diagram](https://github.com/user-attachments/assets/79cbe382-1890-455a-bf99-2edae65b3333)
 
- Inclua um diagrama da solução e descreva os módulos e as tecnologias
- que fazem parte da solução. Discorra sobre o diagrama.
- 
- **Exemplo do diagrama de Arquitetura**:
- 
- ![Exemplo de Arquitetura](./images/arquitetura-exemplo.png)
- 
+---
 
 ### 4.2. Protótipos de telas
 

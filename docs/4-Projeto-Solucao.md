@@ -11,7 +11,7 @@ A arquitetura do sistema está estruturada em módulos bem definidos, utilizando
 
 | Camada         | Tecnologias                          |
 |----------------|--------------------------------------|
-| Backend        | Python 3.12, Django 5.x               |
+| Backend        | Python, Django               |
 | Frontend       | HTML5, CSS3, JavaScript (Bootstrap)   |
 | Banco de Dados | PostgreSQL                           |
 | Hospedagem     | Heroku ou Railway (fase inicial)     |

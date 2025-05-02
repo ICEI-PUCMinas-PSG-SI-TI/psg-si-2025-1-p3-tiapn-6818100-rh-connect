@@ -10,10 +10,10 @@
 - **Auxiliar de pesquisa e revisão:** Matheus Alexandre Pereira Braga  
 
 ### Sprint 2  
-- **Scrum master:** Matheus Alexandre Pereira Braga  
-- **Desenvolvedor front-end (telas e interações):** Samuel Garcia Porto Vieira  
-- **Desenvolvedor back-end (simulação de lógica sem backend real):** Caio Grossi Pereira Marçal  
-- **Testes (Funcionalidades do protótipo navegável):** Matheus Filipe de Deus Silva  
+- **Scrum master:** Matheus Filipe de Deus Silva  
+- **Desenvolvedor front-end:** Samuel Garcia Porto Vieira  
+- **Desenvolvedor back-end:** Caio Grossi Pereira Marçal  
+- **Testes (Funcionalidades do protótipo navegável):** Matheus Alexandre Pereira Braga  
 - **Documentação final e ajustes técnicos:** Gabriel Falk Prado Bonifácio de Menezes Soares Dias  
 
 ---
@@ -25,11 +25,11 @@
 
 | Responsável                          | Tarefa/Requisito                          | Iniciado em | Prazo      | Status | Terminado em  |
 |--------------------------------------|------------------------------------------|-------------|------------|--------|----------------|
-| Samuel Garcia Porto Vieira           | Objetivos Gerais e especificos           | 01/03/2025  | 10/03/2025 | ✔️     | 08/03/2025     |
-| Matheus Filipe de Deus Silva         | Definição dos participantes do processo  | 02/03/2025  | 12/03/2025 | ✔️     | 07/03/2025     |
-| Caio Grossi Pereira Marçal           | Criação de justificativas e apoio geral  | 01/03/2025  | 10/03/2025 | ✔️     | 09/03/2025     |
-| Gabriel Falk P. B. M. Soares Dias    | Contextualização do processo             | 01/03/2025  | 12/03/2025 | ✔️     | 10/03/2025     |
-| Matheus Alexandre Pereira Braga      | Criação do tema do projeto               | 03/03/2025  | 13/03/2025 | ✔️     | 07/03/2025     |
+| Samuel Garcia           | Objetivos Gerais e especificos           | 01/03/2025  | 10/03/2025 | ✔️     | 08/03/2025     |
+| Matheus Filipe         | Definição dos participantes do processo  | 02/03/2025  | 12/03/2025 | ✔️     | 07/03/2025     |
+| Caio Grossi           | Criação de justificativas e apoio geral  | 01/03/2025  | 10/03/2025 | ✔️     | 09/03/2025     |
+| Gabriel Falk    | Contextualização do processo             | 01/03/2025  | 12/03/2025 | ✔️     | 10/03/2025     |
+| Matheus Alexandre      | Criação do tema do projeto               | 03/03/2025  | 13/03/2025 | ✔️     | 07/03/2025     |
 
 ---
 
@@ -38,12 +38,19 @@
 
 | Responsável                          | Tarefa/Requisito                          | Iniciado em | Prazo      | Status | Terminado em  |
 |--------------------------------------|------------------------------------------|-------------|------------|--------|----------------|
-| Samuel Garcia Porto Vieira           | Modelagem AS IS e TO BE                  | 01/03/2025  | 21/03/2025 | ✔️     | 20/03/2025     |
-| Matheus Filipe de Deus Silva         | Criação dos protótipos iniciais          | 02/03/2025  | 07/03/2025 | ✔️     | 05/03/2025     |
-| Caio Grossi Pereira Marçal           | Redação de histórias de usuário          | 01/03/2025  | 10/03/2025 | ✔️     | 09/03/2025     |
-| Gabriel Falk P. B. M. Soares Dias    | Personas e requisitos funcionais         | 01/03/2025  | 12/03/2025 | ✔️     | 10/03/2025     |
-| Matheus Alexandre Pereira Braga      | Revisão e Criação dos requisitos         | 03/03/2025  | 13/03/2025 | ✔️     | 13/03/2025     |
+| Samuel Garcia           | Modelagem AS IS e TO BE                  | 01/03/2025  | 21/03/2025 | ✔️     | 20/03/2025     |
+| Matheus Filipe       | Criação dos protótipos iniciais          | 02/03/2025  | 07/03/2025 | ✔️     | 05/03/2025     |
+| Caio Grossi           | Redação de histórias de usuário          | 01/03/2025  | 10/03/2025 | ✔️     | 09/03/2025     |
+| Gabriel Falk    | Personas e requisitos funcionais         | 01/03/2025  | 12/03/2025 | ✔️     | 10/03/2025     |
+| Matheus Alexandre      | Revisão e Criação dos requisitos         | 03/03/2025  | 13/03/2025 | ✔️     | 13/03/2025     |
 ---
+
+### Sprint 3  
+*Atualizado em: 02/05/2025*
+
+| Responsável                          | Tarefa/Requisito                          | Iniciado em | Prazo      | Status | Terminado em  |
+|--------------------------------------|------------------------------------------|-------------|------------|--------|----------------|
+
 
 **Legenda:**
 - ✔️: terminado  

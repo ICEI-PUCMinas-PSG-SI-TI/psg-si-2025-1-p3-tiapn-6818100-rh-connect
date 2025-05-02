@@ -50,7 +50,7 @@
 
 | Responsável                          | Tarefa/Requisito                          | Iniciado em | Prazo      | Status | Terminado em  |
 |--------------------------------------|------------------------------------------|-------------|------------|--------|----------------|
-| Matheus Filipe           | Protótipo de telas: login de usuário, criação de chamado, visão geral de tickets, relatórios e métricas                 | 18/04/2025  | 25/04/2025 | ✔️     | 25/04/2025     |
+| Matheus Filipe           | Protótipo de telas: login de usuário, criação de chamado, visão geral de tickets, relatórios e métricas, painel administrativo                 | 18/04/2025  | 25/04/2025 | ✔️     | 25/04/2025     |
 | Gabriel Falk          | Protótipo de telas: construção de relatório, página do usuário, detalhes do chamado                 | 18/04/2025  | 25/04/2025 | ✔️     | 25/04/2025     |
 
 

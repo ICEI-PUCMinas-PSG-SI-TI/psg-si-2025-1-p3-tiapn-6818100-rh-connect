@@ -48,15 +48,19 @@
 ### Sprint 3  
 *Atualizado em: 02/05/2025*
 
-| Responsável                          | Tarefa/Requisito                          | Iniciado em | Prazo      | Status | Terminado em  |
-|--------------------------------------|------------------------------------------|-------------|------------|--------|----------------|
-| Matheus Filipe           | Protótipo de telas: login de usuário, criação de chamado, visão geral de tickets, relatórios e métricas, painel administrativo                 | 18/04/2025  | 25/04/2025 | ✔️     | 25/04/2025     |
-| Gabriel Falk          | Protótipo de telas: construção de relatório, página do usuário, detalhes do chamado                 | 18/04/2025  | 25/04/2025 | ✔️     | 25/04/2025     |
-| Caio Grossi          | Escolha de tecnologias back-end                 | 25/04/2025  | 02/05/2025 | ✔️     | 02/05/2025     |
-| Matheus Alexandre          | Escolha de tecnologias front-end                 | 25/04/2025  | 02/05/2025 | ✔️     | 02/05/2025     |
-| Samuel Garcia          | Escolha de tecnologias banco de dados e hospedagem                 | 02/05/2025  | 09/05/2025 | 📝     | 09/05/2025     |
-| Matheus Filipe          | Diagrama de arquitetura da solução                 | 25/04/2025  | 02/05/2025 | ✔️     | 02/05/2025     |
-| Matheus Filipe          | Diagrama de classes: modelo ER                 | 25/04/2025  | 02/05/2025 | ✔️     | 02/05/2025     |
+| Responsável           | Tarefa/Requisito                                                                 | Iniciado em | Prazo      | Status | Terminado em  |
+|-----------------------|----------------------------------------------------------------------------------|-------------|------------|--------|----------------|
+| Matheus Filipe        | Protótipo de telas: login de usuário, criação de chamado, visão geral de tickets, relatórios e métricas, painel administrativo | 18/04/2025  | 25/04/2025 | ✔️     | 25/04/2025     |
+| Gabriel Falk          | Protótipo de telas: construção de relatório, página do usuário, detalhes do chamado | 18/04/2025  | 25/04/2025 | ✔️     | 25/04/2025     |
+| Caio Grossi           | Escolha de tecnologias back-end                                                 | 25/04/2025  | 02/05/2025 | ✔️     | 02/05/2025     |
+| Matheus Alexandre     | Escolha de tecnologias front-end                                                | 25/04/2025  | 02/05/2025 | ✔️     | 02/05/2025     |
+| Samuel Garcia         | Escolha de tecnologias banco de dados e hospedagem                              | 02/05/2025  | 09/05/2025 | 📝     |                |
+| Matheus Filipe        | Diagrama de arquitetura da solução                                              | 25/04/2025  | 02/05/2025 | ✔️     | 02/05/2025     |
+| Gabriel Falk          | Elaboração do Diagrama de Classes (UML)                                         | 02/05/2025  | 07/05/2025 | 📝     |                |
+| Samuel Garcia         | Elaboração do Modelo ER (DER) com entidades e relacionamentos                   | 02/05/2025  | 07/05/2025 | 📝     |                |
+| Caio Grossi           | Construção do Modelo Relacional (Esquema com tabelas e chaves)                  | 02/05/2025  | 08/05/2025 | 📝     |                |
+| Matheus Alexandre     | Geração do Modelo Físico e Script SQL de criação das tabelas                    | 02/05/2025  | 09/05/2025 | 📝     |                |
+
 
 
 

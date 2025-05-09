@@ -170,49 +170,41 @@ O Esquema Relacional corresponde à representação dos dados em tabelas juntame
 
 #### 4.3.3 Modelo Físico
 
-Insira aqui o script de criação das tabelas do banco de dados.
 
 Veja um exemplo:
 
 <code>
 
- -- Criação da tabela Médico
-CREATE TABLE Medico (
-    MedCodigo INTEGER PRIMARY KEY,
-    MedNome VARCHAR(100)
+-- Tabela EMPRESA
+CREATE TABLE EMPRESA (
+    ID INT PRIMARY KEY,
+    Nome VARCHAR(80) NOT NULL,
+    CNPJ VARCHAR(25) NOT NULL,
+    Nome_responsavel VARCHAR(30),
+    Email_responsavel VARCHAR(30),
+    Status ENUM('ATIVO', 'INATIVO') NOT NULL
 );
 
-
--- Criação da tabela Paciente
-CREATE TABLE Paciente (
-    PacCodigo INTEGER PRIMARY KEY,
-    PacNome VARCHAR(100)
+-- Tabela COLABORADOR
+CREATE TABLE COLABORADOR (
+    ID INT PRIMARY KEY,
+    ID_EMPRESA INT,
+    Nome VARCHAR(80) NOT NULL,
+    Email VARCHAR(25),
+    Departamento VARCHAR(30),
+    Cargo VARCHAR(30),
+    Status ENUM('ATIVO', 'INATIVO') NOT NULL,
+    FOREIGN KEY (ID_EMPRESA) REFERENCES EMPRESA(ID)
 );
 
--- Criação da tabela Consulta
-CREATE TABLE Consulta (
-    ConCodigo INTEGER PRIMARY KEY,
-    MedCodigo INTEGER,
-    PacCodigo INTEGER,
-    Data DATE,
-    FOREIGN KEY (MedCodigo) REFERENCES Medico(MedCodigo),
-    FOREIGN KEY (PacCodigo) REFERENCES Paciente(PacCodigo)
-);
-
--- Criação da tabela Medicamento
-CREATE TABLE Medicamento (
-    MdcCodigo INTEGER PRIMARY KEY,
-    MdcNome VARCHAR(100)
-);
-
--- Criação da tabela Prescricao
-CREATE TABLE Prescricao (
-    ConCodigo INTEGER,
-    MdcCodigo INTEGER,
-    Posologia VARCHAR(200),
-    PRIMARY KEY (ConCodigo, MdcCodigo),
-    FOREIGN KEY (ConCodigo) REFERENCES Consulta(ConCodigo),
-    FOREIGN KEY (MdcCodigo) REFERENCES Medicamento(MdcCodigo)
+-- Tabela CHAMADO
+CREATE TABLE CHAMADO (
+    ID INT PRIMARY KEY,
+    ID_Colaborador INT,
+    Descricao TEXT,
+    Criado_em DATETIME DEFAULT CURRENT_TIMESTAMP,
+    Titulo VARCHAR(80),
+    FOREIGN KEY (ID_Colaborador) REFERENCES COLABORADOR(ID)
 );
 
 </code>

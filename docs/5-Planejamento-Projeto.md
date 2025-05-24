@@ -16,6 +16,19 @@
 - **Testes (Funcionalidades do protótipo navegável):** Matheus Alexandre Pereira Braga  
 - **Documentação final e ajustes técnicos:** Gabriel Falk Prado Bonifácio de Menezes Soares Dias  
 
+### Sprint 3
+- **Scrum master:** Samuel Garcia Porto Vieira  
+- **Desenvolvedor front-end:** Matheus Filipe de Deus Silva  
+- **Desenvolvedor back-end:** Caio Grossi Pereira Marçal  
+- **Testes (Funcionalidades do protótipo navegável):** Matheus Alexandre Pereira Braga  
+- **Documentação final e ajustes técnicos:** Matheus Alexandre Pereira Braga  
+
+### Sprint 4
+- **Scrum master:** Caio Grossi Pereira Marçal
+- **Desenvolvedor front-end:** Matheus Filipe de Deus Silva  
+- **Desenvolvedor back-end:** Matheus Alexandre Pereira Braga
+- **Testes (Funcionalidades do protótipo navegável):** Gabriel Falk Prado Bonifácio de Menezes Soares Dias  
+- **Documentação final e ajustes técnicos:** Samuel Garcia Porto Vieira    
 ---
 
 ## 5.2. Quadro de Tarefas

@@ -61,7 +61,7 @@
         <div class="chamado">
             <h3>{{ chamado.titulo }}</h3>
             <p><strong>Data:</strong> {{ chamado.criado_em|date:"d/m/Y H:i" }}</p>
-            <p>{{ chamado.descricao }}</p>
+            <p><strong>Descricao:</strong> {{ chamado.descricao }}</p>
         </div>
     {% empty %}
         <p>Você ainda não abriu nenhum chamado.</p>

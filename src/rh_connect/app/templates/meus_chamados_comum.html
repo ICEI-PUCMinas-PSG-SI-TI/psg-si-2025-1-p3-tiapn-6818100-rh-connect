@@ -62,6 +62,10 @@
             <h3>{{ chamado.titulo }}</h3>
             <p><strong>Data:</strong> {{ chamado.criado_em|date:"d/m/Y H:i" }}</p>
             <p><strong>Descricao:</strong> {{ chamado.descricao }}</p>
+            {% if chamado.observacao_rh %}
+                <p><strong>Observacao RH:</strong>: {{ chamado.observacao_rh }}</p>
+            {% endif %}
+
         </div>
     {% empty %}
         <p>Você ainda não abriu nenhum chamado.</p>

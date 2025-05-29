@@ -82,6 +82,10 @@
             <p><strong>Data:</strong> {{ chamado.criado_em|date:"d/m/Y H:i" }}</p>
             <p><strong>Colaborador:</strong> {{ chamado.colaborador.username }} {{ chamado.colaborador.last_name }}</p>
             <p><strong>Descricao:</strong>: {{ chamado.descricao }}</p>
+            {% if chamado.observacao_rh %}
+                <p><strong>Observacao RH:</strong>: {{ chamado.observacao_rh }}</p>
+            {% endif %}
+
             <a href="{% url 'detalhe_chamado' chamado.pk %}" class="detalhes-btn">Ver Detalhes</a>
         </div>
     {% empty %}

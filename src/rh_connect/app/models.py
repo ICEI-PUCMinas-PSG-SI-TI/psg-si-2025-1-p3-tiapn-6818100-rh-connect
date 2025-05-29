@@ -40,11 +40,23 @@ class Colaborador(AbstractUser):
 
 
 class Chamado(models.Model):
+    class StatusChoices(models.TextChoices):
+        ABERTO = 'ABERTO', 'Aberto'
+        EM_ANALISE = 'EM_ANALISE', 'Em análise'
+        FECHADO = 'FECHADO', 'Fechado'
+    
     titulo = models.CharField(max_length=255)
     descricao = models.TextField()
     criado_em = models.DateTimeField(auto_now_add=True)
     colaborador = models.ForeignKey(Colaborador, on_delete=models.CASCADE, related_name='chamados')
     observacao_rh = models.TextField()
+
+    status = models.CharField(
+        max_length=20,
+        choices=StatusChoices.choices,
+        default=StatusChoices.ABERTO
+    )
+    
 
     def __str__(self):
         return f"{self.titulo} - {self.colaborador.username}"

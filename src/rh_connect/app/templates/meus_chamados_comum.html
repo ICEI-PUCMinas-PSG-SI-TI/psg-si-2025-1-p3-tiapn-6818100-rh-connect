@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Meus Chamados</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            padding: 40px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 10px;
+        }
+
+        h1 {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .chamado {
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+        }
+
+        .chamado h3 {
+            margin: 0 0 10px;
+        }
+
+        .novo-btn {
+            display: block;
+            width: 100%;
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            margin-top: 30px;
+        }
+
+        .novo-btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Meus Chamados</h1>
+
+    {% for chamado in chamados %}
+        <div class="chamado">
+            <h3>{{ chamado.titulo }}</h3>
+            <p><strong>Data:</strong> {{ chamado.criado_em|date:"d/m/Y H:i" }}</p>
+            <p>{{ chamado.descricao }}</p>
+        </div>
+    {% empty %}
+        <p>Você ainda não abriu nenhum chamado.</p>
+    {% endfor %}
+
+    <a href="{% url 'criar_chamado' %}" class="novo-btn">+ Criar Novo Chamado</a>
+</div>
+</body>
+</html>

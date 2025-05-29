@@ -1,60 +1,50 @@
-# Create your models here.
 from django.db import models
-from django.utils import timezone # Para o campo Criado_em
+from django.contrib.auth.models import AbstractUser
 
 class Empresa(models.Model):
     nome = models.CharField(max_length=255)
-    cnpj = models.CharField(max_length=18, unique=True) 
+    cnpj = models.CharField(max_length=18, unique=True)
     nome_responsavel = models.CharField(max_length=255)
     email_responsavel = models.EmailField()
-    status = models.CharField(max_length=100) 
 
     def __str__(self):
         return self.nome
 
-    class Meta:
-        verbose_name = "Empresa"
-        verbose_name_plural = "Empresas"
 
-class Colaborador(models.Model):
-    empresa = models.ForeignKey(Empresa, on_delete=models.CASCADE, related_name='colaboradores')
-    nome = models.CharField(max_length=255)
-    email = models.EmailField(unique=True) 
-    departamento = models.CharField(max_length=100, blank=True, null=True)
-    cargo = models.CharField(max_length=100)
-    status = models.CharField(max_length=100)
+class Colaborador(AbstractUser):
+    class CargoChoices(models.TextChoices):
+        COMUM = "COMUM", "Comum"
+        RH = "RH", "RH"
 
-    def __str__(self):
-        return f"{self.nome} ({self.empresa.nome})"
+    class DepartamentoChoices(models.TextChoices):
+        FINANCEIRO = "FINANCEIRO", "Financeiro"
+        ADMINISTRATIVO = "ADMINISTRATIVO", "Administrativo"
+        TECNOLOGIA = "TECNOLOGIA", "Tecnologia"
+        RH = "RH", "Recursos Humanos"
+        OUTRO = "OUTRO", "Outro"
 
-    class Meta:
-        verbose_name = "Colaborador"
-        verbose_name_plural = "Colaboradores"
-
-class Chamado(models.Model):
-    colaborador = models.ForeignKey(Colaborador, on_delete=models.SET_NULL, null=True, blank=True, related_name='chamados')
-    titulo = models.CharField(max_length=200)
-    descricao = models.TextField()
-    criado_em = models.DateTimeField(default=timezone.now) 
-
-    STATUS_CHOICES = [
-        ('ABERTO', 'Aberto'),
-        ('EM_ANDAMENTO', 'Em Andamento'),
-        ('AGUARDANDO_CLIENTE', 'Aguardando Cliente'),
-        ('RESOLVIDO', 'Resolvido'),
-        ('FECHADO', 'Fechado'),
-    ]
-    status_chamado = models.CharField(
+    departamento = models.CharField(
         max_length=20,
-        choices=STATUS_CHOICES,
-        default='ABERTO',
+        choices=DepartamentoChoices.choices,
+        default=DepartamentoChoices.OUTRO
+    )
+    empresa = models.ForeignKey(Empresa, on_delete=models.CASCADE, related_name='colaboradores', null=True, blank=True)
+    cargo = models.CharField(
+        max_length=10,
+        choices=CargoChoices.choices,
+        default=CargoChoices.COMUM
     )
 
+    def __str__(self):
+        return f"{self.first_name} {self.last_name} ({self.username})"
+
+
+class Chamado(models.Model):
+    titulo = models.CharField(max_length=255)
+    descricao = models.TextField()
+    criado_em = models.DateTimeField(auto_now_add=True)
+    colaborador = models.ForeignKey(Colaborador, on_delete=models.CASCADE, related_name='chamados')
+    observacao_rh = models.TextField()
 
     def __str__(self):
-        return f"{self.titulo} (Colaborador: {self.colaborador.nome if self.colaborador else 'N/A'})"
-
-    class Meta:
-        verbose_name = "Chamado"
-        verbose_name_plural = "Chamados"
-        ordering = ['-criado_em'] 
+        return f"{self.titulo} - {self.colaborador.username}"

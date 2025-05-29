@@ -123,3 +123,8 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 AUTH_USER_MODEL = 'app.Colaborador'  # substitua 'sua_app' pelo nome da sua app
+
+
+LOGIN_URL = 'login'
+LOGIN_REDIRECT_URL = '/'  # ou o dashboard principal
+LOGOUT_REDIRECT_URL = 'login'

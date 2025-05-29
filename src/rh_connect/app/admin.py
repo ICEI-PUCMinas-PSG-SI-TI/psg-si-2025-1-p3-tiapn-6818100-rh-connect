@@ -16,12 +16,12 @@ class ColaboradorAdmin(UserAdmin):
     list_filter = ("empresa", "cargo", "departamento", "is_staff", "is_superuser")
     fieldsets = UserAdmin.fieldsets + (
         ("Dados Corporativos", {
-            "fields": ("empresa", "cargo", "departamento", "status")
+            "fields": ("empresa", "cargo", "departamento")
         }),
     )
     add_fieldsets = UserAdmin.add_fieldsets + (
         ("Dados Corporativos", {
-            "fields": ("empresa", "cargo", "departamento", "status")
+            "fields": ("empresa", "cargo", "departamento")
         }),
     )
     search_fields = ("username", "email", "first_name", "last_name")

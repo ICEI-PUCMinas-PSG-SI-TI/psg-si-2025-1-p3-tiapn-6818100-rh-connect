@@ -84,9 +84,17 @@
     {% if user.cargo == user.CargoChoices.RH %}
         <form method="post">
             {% csrf_token %}
+
+            <p>
+                            <label for="id_status" style="margin-top: 20px;"><strong>Status:</strong></label>
+            {{ form.status }}
+            </p>
+
+
             <label for="id_observacao_rh"><strong>Observação do RH:</strong></label>
             {{ form.observacao_rh }}
-            <button type="submit">Salvar Observação</button>
+
+            <button type="submit" style="margin-top: 15px;">Salvar</button>
         </form>
     {% else %}
         {% if chamado.observacao_rh %}

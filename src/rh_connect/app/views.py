@@ -9,6 +9,10 @@ from django.contrib import messages # Para exibir mensagens de feedback
 from .forms import ChamadoForm
 from .models import Colaborador # Importe o Colaborador se for lidar com ele na view
 
+# Busca
+def loginpage(request):
+    return render(request, 'loginpage.html')
+
 # @login_required # Descomente se o usuário precisar estar logado
 def abrir_chamado(request):
     if request.method == 'POST':

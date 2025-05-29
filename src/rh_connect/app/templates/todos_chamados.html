@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Todos os Chamados</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            padding: 40px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 10px;
+        }
+
+        h1 {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .chamado {
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+        }
+
+        .chamado h3 {
+            margin: 0 0 10px;
+        }
+
+        .chamado p {
+            margin: 4px 0;
+        }
+
+        .logout-link {
+            display: block;
+            width: 100%;
+            background-color: #dc3545;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            margin-top: 30px;
+        }
+
+        .logout-link:hover {
+            background-color: #b02a37;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Todos os Chamados</h1>
+
+    {% for chamado in chamados %}
+        <div class="chamado">
+            <h3>{{ chamado.titulo }}</h3>
+            <p><strong>Data:</strong> {{ chamado.criado_em|date:"d/m/Y H:i" }}</p>
+            <p><strong>Colaborador:</strong> {{ chamado.colaborador.first_name }} {{ chamado.colaborador.last_name }} ({{ chamado.colaborador.username }})</p>
+            <p>{{ chamado.descricao }}</p>
+        </div>
+    {% empty %}
+        <p>Nenhum chamado encontrado.</p>
+    {% endfor %}
+</div>
+</body>
+</html>

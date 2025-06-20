@@ -70,12 +70,28 @@
         .logout-link:hover {
             background-color: #b02a37;
         }
+
+        .btn-graficos {
+    display: inline-block;
+    padding: 12px 28px;
+    margin-bottom: 24px;
+    background: #1ac8fc;
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 6px;
+    box-shadow: 0 3px 10px rgba(50,120,250,0.12);
+    transition: background 0.2s, transform 0.2s;
+}
     </style>
 </head>
 <body>
 <div class="container">
     <h1>Todos os Chamados</h1>
-
+<a href="{% url 'chamados_grafico' %}" class="btn-graficos">
+    📊 Ver Gráficos dos Chamados
+</a>
     {% for chamado in chamados %}
         <div class="chamado">
             <h3>{{ chamado.titulo }}</h3>

@@ -1,7 +1,7 @@
 # suporte/urls.py
 
 from django.urls import path
-from .views import ChamadoDetailView, CriarChamadoView, CustomLoginView, MeusChamadosComumView, TodosChamadosView
+from .views import ChamadoDetailView, CriarChamadoView, CustomLoginView, MeusChamadosComumView, TodosChamadosView, chamados_por_status
 from django.contrib.auth.views import LogoutView
 
 urlpatterns = [
@@ -11,4 +11,5 @@ urlpatterns = [
     path('criar-chamado/', CriarChamadoView.as_view(), name='criar_chamado'),
     path('todos-chamados/', TodosChamadosView.as_view(), name='todos_chamados'),
     path('chamados/<int:pk>/', ChamadoDetailView.as_view(), name='detalhe_chamado'),
+    path('chamados/grafico/', chamados_por_status, name='chamados_grafico'),
 ]

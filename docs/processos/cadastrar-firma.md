@@ -1,4 +1,4 @@
-### 3.3.2 Processo 2 – Login no RH Connect.
+### 3.3.2 Processo 1 – Login no RH Connect.
 
 O processo se inicia quando colaborador entra no site do RH Connect, o mesmo ja possuirá uma conta, irá entrar e preencher seu login com o usuario e senha que serão previamente fornecidos.
 Será realizado o preenchimento das informações, caso o usuario e senha estiverem corretos, o colaborador sera redirecionado ao site.

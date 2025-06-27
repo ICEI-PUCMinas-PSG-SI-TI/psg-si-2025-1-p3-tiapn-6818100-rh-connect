@@ -70,11 +70,29 @@
         .logout-link:hover {
             background-color: #b02a37;
         }
+
+        a {
+    background-color: #4CAF50; /* Cor de fundo verde */
+    color: white; /* Cor do texto */
+    border: none; /* Remove a borda */
+    padding: 10px 20px; /* Espaçamento interno */
+    text-align: center; /* Alinha o texto no centro */
+    text-decoration: none; /* Remove sublinhado */
+    display: inline-block; /* Alinha o botão ao lado de outros elementos */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor para uma mãozinha */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s ease; /* Transição suave para a mudança de cor */
+}
+
+
+        
     </style>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
 <div class="container">
+    <a href="{% url 'todos_chamados' %}" >Voltar</a>
     <h1>Graficos chamados</h1>
 
     <h2>Chamados por Status</h2>
@@ -82,8 +100,6 @@
 
     <h2>Chamados abertos nos ultimos 10 dias</h2>
     <canvas id="diaChart" width="600" height="250"></canvas>
-
-    <canvas id="chamadosChart" width="400" height="200"></canvas>
     <script>
         // Gráfico de Status
         const ctxStatus = document.getElementById('statusChart').getContext('2d');

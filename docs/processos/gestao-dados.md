@@ -1,10 +1,24 @@
-### 3.3.4 Processo 3 – Gestão de Dados dos Chamados.
+### 3.3.4 Processo 3 – Processo de reuniões/processamento de chamado.
  
-O processo referido é automático, realizado pelo processamento que o sistema vai realizar para disponiblizar o formulário necessário para a atuação do setor de RH.
-O processo se inicia armazenando os dados que foram obtidos durante o processamento de chamados, para assim, atualizar as informações do colaborador e elaborar um simples Dashboard informativo.
-Concomitante a isso, o processo realizará a criação de um formulário contendo as informações previamente processadas e formatadas.
-OBS: Todo o processo vai respeitar a LGPD.
+O processo acontece a partir do momento que um chamado é aceito, o funcionario do RH entra em contato com o colaborador.
+Após isso, será realizada reuniões periodicas, o quanto for necessário para reunir informações e finalizar o chamado.
+As informações são preenchidas em *Observações*, dentro do chamado, facilitando a busca do mesmo.
 
-![image](https://github.com/user-attachments/assets/7bc72c8d-f7d4-4c9a-850f-f3ee1b2269a2)
+![image](https://github.com/user-attachments/assets/3119a44b-e607-40a2-bce0-403bdb5c9fc5)
 
-### O processo descrito acima acontece de forma automatica pelo sistema.
+#### Detalhamento das atividades
+
+**Fechamento de chamado**
+
+| **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
+| ---             | ---              | ---            | ---               |
+| [Nome do campo] | [tipo de dados]  |                |                   |
+| ***Exemplo:***  |                  |                |                   |
+| Observações          | Área de texto   | obrigatorio o preenchimento |                |
+| Voltar          | Seleção única   |  |           |
+
+| **Comandos**         |  **Destino**                   | **Tipo** |
+| ---                  | ---                            | ---               |
+| [Nome do botão/link] | Atividade/processo de destino  | (default/cancel/  ) |
+| ***Exemplo:***       |                                |                   |
+| observações               |Fim do processo        | default           |

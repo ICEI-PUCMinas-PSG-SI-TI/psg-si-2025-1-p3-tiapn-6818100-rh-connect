@@ -2,9 +2,9 @@
  
 O processo depende do chamado *2 - Abertura de chamado*, caso existir algum chamado em aberto.
 Caso exista o chamado, o funcionario do RH podera acessar o chamado, preencher as observações do mesmo e clicar em um botão para fechar o chamado.
+Caso se as observações não forem preenchidas, o chamado não será fechado.
 
-![image](https://github.com/user-attachments/assets/eeca1c99-b806-4272-aa88-5007a7d85ad0)
-
+![image](https://github.com/user-attachments/assets/b0b93ec5-73ab-40b5-b33b-4f38c5c334c7)
 
 #### Detalhamento das atividades
 
@@ -21,4 +21,4 @@ Caso exista o chamado, o funcionario do RH podera acessar o chamado, preencher a
 | ---                  | ---                            | ---               |
 | [Nome do botão/link] | Atividade/processo de destino  | (default/cancel/  ) |
 | ***Exemplo:***       |                                |                   |
-| fechar chamado               |               | default           |
+| fechar chamado               |Fim do processo        | default           |
